@@ -15,8 +15,11 @@ The HTTPD and MariaDB server are being installed on the same server.
 If you can't reach the website then it's possible that you need to open port 80 on the server. To do this:
 
 Step 1. ssh to the machine
+
 Step 2. $ sudo firewall-cmd --zone=public --add-port=80/tcp --permanent
+
 Step 3. $ sudo firewall-cmd --reload
+
 
 How to run the Playbook
 ----------------
