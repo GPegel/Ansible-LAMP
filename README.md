@@ -2,7 +2,7 @@
 Ansible script to create LAMP servers
 
 Role Name
-=========
+------------
 
 LAMP (Linux, Apache, MySQL, PHP)
 
