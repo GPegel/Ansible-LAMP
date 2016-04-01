@@ -34,4 +34,4 @@ BSD
 Created by Gerhard Pegel
 -------
 
-Monitoring Engineer at Wehkamp, the Netherlands. Before joining Wehkamp, I was a sysAdmin at Innovadis & Indenty. I started my career working at a production plant as a junior system engineer. Loves to talk about DevOps, System Administration, Scalability, High Availability, Monitoring tools like Zabbix. Apart from work, I love to meet people, listening to music and watch sports.
+Monitoring Engineer at Wehkamp, the Netherlands. Before joining Wehkamp, I was a sysAdmin at Innovadis & Indenty. I started my career working at a production plant as a junior system engineer. Loves to talk about DevOps, System Administration, Scalability, High Availability, Monitoring tools like Zabbix. Apart from work, I love to meet people, listening to music and watch movies.
