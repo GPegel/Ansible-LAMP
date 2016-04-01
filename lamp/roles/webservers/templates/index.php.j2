@@ -1,0 +1,31 @@
+<html>
+<head>
+       <title>Initial Website created by Ansible</title>
+</head>
+<body>
+<center><h2>
+  Initial Website created by Ansible
+</h2></center>
+
+    <h3>
+        Thank you for reading this post. My IP Address is {{ ansible_host }}.
+        This is {{ ansible_system }} OS with {{ ansible_userspace_architecture }} architecture
+    </h3>
+    <center><p>
+        <strong>List of Databases:</strong> <br/>
+        <?php
+
+    $dbobj = mysql_connect('localhost', '{{ dbuser }}', '{{ dbpassword }}');
+    if (!$dbobj) { die('Could not connect: ' . mysql_error()); }
+
+    $result = mysql_query("SHOW DATABASES");
+    while ($res = mysql_fetch_assoc($result)){
+        echo $res['Database'] . "<br/>";
+    }
+
+        ?>
+    </p></center>
+    <br/>
+    <p><img src="penclchk.gif" alt="Test Logo"/></p>
+</body>
+</html>
