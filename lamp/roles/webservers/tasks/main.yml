@@ -1,12 +1,19 @@
 ---
 # tasks file for lamp
 # This task installs and enables apache on webservers
+- name: Install EPEL
+  yum:
+    name: "epel-release"
+    state: present
+
 - name: ensure apache, php related packages are installed
   yum: name={{ item }} state=present
   with_items:
     - httpd
     - php
     - php-mysql
+    - htop
+    - mc
 - name: ensure apache is running
   service: name=httpd state=running enabled=yes
 - name: copy files to document root
